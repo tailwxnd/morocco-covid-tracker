@@ -6,7 +6,7 @@ import Statistics from '../components/Statistics';
 const Home = () => (
   <div>
     <Head>
-      <title>COVID-19 Tracker Maroc</title>
+      <title>COVID-19 Tracker Morocco</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <NavBar />
