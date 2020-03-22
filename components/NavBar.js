@@ -40,13 +40,6 @@ function NavBar() {
               Statistiques
             </a>
           </Link>
-
-          <Link href="/informations">
-            <a href="/informations" className="block hover:underline md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-lg text-gray-500 hover:text-gray-900">
-              Informations
-            </a>
-          </Link>
-
           <Link
 
             href="/contact"
