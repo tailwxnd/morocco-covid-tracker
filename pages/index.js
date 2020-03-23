@@ -2,9 +2,10 @@ import Head from 'next/head';
 import NavBar from '../components/NavBar';
 import WarningBanner from '../components/WarningBanner';
 import Statistics from '../components/Statistics';
+import Layout from '../components/Layout';
 
 const Home = () => (
-  <div>
+  <Layout>
     <Head>
       <title>COVID-19 Tracker Morocco</title>
       <link rel="icon" href="/favicon.ico" />
@@ -12,7 +13,7 @@ const Home = () => (
     <NavBar />
     <Statistics />
     <WarningBanner />
-  </div>
+  </Layout>
 );
 
 export default Home;
