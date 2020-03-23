@@ -1,30 +1,29 @@
+![web browser showing stats and a donut chart](stats-screenshot.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+It is a simple project that shows the number of cases, deceased and recovered numbers of COVID-19 in Morocco using the [novelcovid API](https://github.com/novelcovid/api)
+and uses TailwindCSS and TailwindUI.
 
-## Getting Started
+## Running the project locally
 
-First, run the development server:
+Clone the project: 
 
 ```bash
-npm run dev
-# or
+git clone git@github.com:ceeyahya/morocco-covid-tracker.git
+```
+
+Install Dependencies:
+
+```bash
+yarn
+```
+
+
+Run the development server:
+
+```bash
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
